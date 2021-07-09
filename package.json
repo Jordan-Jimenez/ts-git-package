@@ -29,6 +29,6 @@
     "styled-components": "^4.4.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
   }
 }
