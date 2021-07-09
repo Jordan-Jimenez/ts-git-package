@@ -1,10 +1,10 @@
 {
   "name": "@jordan-jimenez/ts-git-package",
-  "files": "dist",
+  "files": ["dist/**/*"],
   "typings": "dist/index.d.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.js",
     "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c",
