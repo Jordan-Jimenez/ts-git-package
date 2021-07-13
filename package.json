@@ -2,7 +2,7 @@
   "name": "@jordan-jimenez/ts-git-package",
   "files": ["dist/**/*"],
   "typings": "dist/index.d.ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
     "module": "dist/index.esm.js",
