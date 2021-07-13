@@ -1,8 +1,5 @@
 import React, { FC } from "react";
-
-interface ITextProps {
-  color?: string;
-}
+import { ITextProps } from "../../types/types";
 
 const Text: FC<ITextProps> = ({ color }) => {
   return <p style={{ color: color }}>Hello World</p>;

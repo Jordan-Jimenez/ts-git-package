@@ -1,6 +1,4 @@
 import { FC } from "react";
-interface ITextProps {
-    color?: string;
-}
+import { ITextProps } from "../../types/types";
 declare const Text: FC<ITextProps>;
 export default Text;
