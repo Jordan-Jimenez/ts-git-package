@@ -4,7 +4,7 @@
     "dist/**/*"
   ],
   "typings": "dist/index.d.ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -31,8 +31,5 @@
   },
   "publishConfig": {
     "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
-  },
-  "dependencies": {
-    "graphql": "^15.5.1"
   }
 }
