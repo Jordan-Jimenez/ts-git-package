@@ -1,4 +1,4 @@
-import Text from "./component/text";
-import { ITextProps } from "./types/types";
+import Text from "./component/text/Text";
+import ITextProps from "./component/text/textProps";
 export { ITextProps };
 export { Text };

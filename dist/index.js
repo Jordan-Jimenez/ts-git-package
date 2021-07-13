@@ -1,2 +1,2 @@
-import Text from "./component/text";
+import Text from "./component/text/Text";
 export { Text };

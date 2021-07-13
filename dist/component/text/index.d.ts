@@ -1,4 +1,4 @@
-import { FC } from "react";
-import { ITextProps } from "../../types/types";
-declare const Text: FC<ITextProps>;
+import Text from "./Text";
+import textProps from "./textProps";
+export { textProps };
 export default Text;

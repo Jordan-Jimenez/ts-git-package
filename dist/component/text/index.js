@@ -1,6 +1,2 @@
-import React from "react";
-var Text = function (_a) {
-    var color = _a.color;
-    return React.createElement("p", { style: { color: color } }, "Hello World");
-};
+import Text from "./Text";
 export default Text;

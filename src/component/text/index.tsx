@@ -1,8 +1,4 @@
-import React, { FC } from "react";
-import { ITextProps } from "../../types/types";
-
-const Text: FC<ITextProps> = ({ color }) => {
-  return <p style={{ color: color }}>Hello World</p>;
-};
-
+import Text from "./Text";
+import textProps from "./textProps";
+export { textProps };
 export default Text;
