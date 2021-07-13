@@ -1,11 +1,13 @@
 {
   "name": "@jordan-jimenez/ts-git-package",
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "typings": "dist/index.d.ts",
   "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
-    "module": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w"
@@ -29,5 +31,8 @@
   },
   "publishConfig": {
     "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "graphql": "^15.5.1"
   }
 }
